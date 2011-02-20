@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 package Plack::Middleware::NoMultipleSlashes;
+# ABSTRACT: Remove multiple slashes in your paths automatically
 
 use parent qw(Plack::Middleware);
 
